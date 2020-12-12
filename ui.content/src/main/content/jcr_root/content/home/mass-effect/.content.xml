@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-12-12T22:22:15.305+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Mass Effect"
+        sling:resourceType="training/components/structure/content-page">
+        <image
+            jcr:lastModified="{Date}2020-12-12T22:21:32.594+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v2/image"
+            alt="Mass Effect"
+            displayPopupTitle="true"
+            fileName="MassEffect.jpg"
+            isDecorative="false">
+            <file/>
+        </image>
+        <text
+            jcr:lastModified="{Date}2020-12-12T22:22:15.302+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/text/v2/text"
+            text="&lt;p>Mass Effect is an action role-playing video game developed by BioWare and originally released for the Xbox 360 console in 2007. It is the first game in the Mass Effect series and takes place within the Milky Way galaxy in the year 2183, where civilization is threatened by a highly advanced machine race known as the Reapers. The player assumes the role of Commander Shepard, an elite human soldier who must stop a rogue agent from carrying out the Reapers' galactic invasion. The game requires the player to complete multiple quests that generally involve space exploration, squad and vehicular combat, and interaction with non-player characters.&lt;/p>&#xd;&#xa;&lt;p>Planned as the first chapter of a trilogy from the very beginning, Mass Effect was developed over the course of three and a half years and uses the Unreal Engine 3 as a groundwork. It was designed so that the player would assume the role of a central character that could make important decisions and impact the story of the game in numerous ways. The combat was designed to offer the tactics and customization of a role-playing game, but through a simpler and real-time third-person shooter interface. In 2008 and 2009, two downloadable content packs that introduced new missions to the base game were released.&lt;/p>&#xd;&#xa;&lt;p>Mass Effect received critical acclaim from video game publications and sold more than one and a half million copies by January 2008. Critics praised the game's interactive storytelling and cinematic design, but criticized its unbalanced combat mechanics and poor artificial intelligence. The game received several year-end awards, including Best RPG at the 2007 Spike Video Game Awards and Roleplaying Game of the Year at the 2008 Interactive Achievement Awards. Mass Effect was ported to the Microsoft Windows and PlayStation 3 platforms in 2008 and 2012, respectively. It was followed by Mass Effect 2 in 2010 and Mass Effect 3 in 2012. A remaster of the trilogy, titled Mass Effect: Legendary Edition, will be released in 2021.&lt;/p>&#xd;&#xa;"
+            textIsRich="true"/>
+    </jcr:content>
+</jcr:root>

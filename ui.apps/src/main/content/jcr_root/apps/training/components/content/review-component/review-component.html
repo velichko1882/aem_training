@@ -1,0 +1,9 @@
+<div>
+	<sly data-sly-use.review="com.epam.aem.training.core.models.ReviewComponentModel"></sly>
+	<h2>${review.behavior}</h2>
+	<h2>${review.headline}</h2>
+	<h2>${review.numberOfElements}</h2>
+	<h2>${review.path}</h2>
+	<p data-sly-repeat="${review.paths}">${item}</p>
+    <h1>${pageProperties.jcr:title}</h1>
+</div>

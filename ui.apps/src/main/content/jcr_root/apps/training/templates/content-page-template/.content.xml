@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:description="This template will be used to create pages with sample content."
+    jcr:primaryType="cq:Template"
+    jcr:title="Template Content training"
+    allowedPaths="[/content/home(/.*)?]"
+    ranking="{Long}10">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="training/components/structure/content-page"/>
+</jcr:root>

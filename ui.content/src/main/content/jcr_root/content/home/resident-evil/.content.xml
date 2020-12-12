@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-12-12T22:26:46.081+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Resident Evil"
+        sling:resourceType="training/components/structure/content-page">
+        <image
+            jcr:lastModified="{Date}2020-12-12T22:26:30.877+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v2/image"
+            alt="Resident Evil"
+            displayPopupTitle="true"
+            fileName="Resident Evil.jpg"
+            isDecorative="false">
+            <file/>
+        </image>
+        <text
+            jcr:lastModified="{Date}2020-12-12T22:26:46.079+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/text/v2/text"
+            text="&lt;p>Resident Evil, known in Japan as Biohazard, is a Japanese video game series and media franchise created and owned by Capcom. The franchise follows individuals battling outbreaks of zombies and other monsters created mainly by the pharmaceutical company Umbrella Corporation. The game series consists of survival horror, third-person shooter, and first-person shooter games. The franchise has expanded into a live-action film series, animated films, television, comic books, novels, audio dramas, and other merchandise.&lt;/p>&#xd;&#xa;&lt;p>The first Resident Evil game was created by Shinji Mikami and Tokuro Fujiwara and released for the PlayStation in 1996. It is credited for defining the survival horror genre and returning zombies to popular culture. With Resident Evil 4 (2005), the franchise shifted to more dynamic shooting action; it influenced the evolution of the survival horror and third-person genres, popularizing the &amp;quot;over-the-shoulder&amp;quot; third-person view. Resident Evil 7: Biohazard (2017) returned to the survival horror mood and moved to a first-person perspective.&lt;/p>&#xd;&#xa;&lt;p>Resident Evil is Capcom's best-selling video game franchise, with over 105 million units sold worldwide as of September 2020. The live-action film series is also the highest-grossing film series based on video games.&lt;/p>&#xd;&#xa;"
+            textIsRich="true"/>
+    </jcr:content>
+</jcr:root>

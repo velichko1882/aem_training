@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-12-12T22:31:11.054+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="The Witcher"
+        sling:resourceType="training/components/structure/content-page">
+        <image
+            jcr:lastModified="{Date}2020-12-12T22:30:55.492+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v2/image"
+            alt="The Witcher"
+            displayPopupTitle="true"
+            fileName="The Witcher.jpg"
+            isDecorative="false">
+            <file/>
+        </image>
+        <text
+            jcr:lastModified="{Date}2020-12-12T22:31:11.050+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/text/v2/text"
+            text="&lt;p>The Witcher is a 2007 action role-playing game developed by CD Projekt Red and published by Atari on Microsoft Windows and CD Projekt on OS X, based on the novel series of The Witcher by Polish author Andrzej Sapkowski, taking place after the events of the main saga. The story takes place in a medieval fantasy world and follows Geralt of Rivia, one of a few traveling monster hunters who have supernatural powers, known as Witchers. The game's system of moral choices as part of the storyline was noted for its time-delayed consequences and lack of black-and-white morality.&lt;/p>&#xd;&#xa;"
+            textIsRich="true"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Review Component Settings"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[review-component.editor]">
+    <content
+        granite:class="container"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container"
+        name="headline"
+        required="{Boolean}true">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                <items jcr:primaryType="nt:unstructured">
+                    <first
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="First Tab"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <radiogroup
+                                                granite:id="behavior"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                                                fieldDescription="Behavior of component: static and dynamic"
+                                                fieldLabel="Behavior of component"
+                                                name="./behavior"
+                                                required="{Boolean}true">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <static
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Static"
+                                                        value="static"/>
+                                                    <dynamic
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Dynamic"
+                                                        value="dynamic"/>
+                                                </items>
+                                            </radiogroup>
+                                            <textfield
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Headline of component"
+                                                fieldLabel="Headline"
+                                                name="./headline"
+                                                required="{Boolean}true"/>
+                                            <numberfield
+                                                granite:id="numberOfElements"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                                fieldDescription="Number of elements in one portion"
+                                                fieldLabel="Number of elements"
+                                                max="{Long}15"
+                                                min="{Long}1"
+                                                name="./numerOfElements"
+                                                required="{Boolean}true"
+                                                value="1"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </first>
+                    <second
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Second Tab"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <multifield
+                                                granite:hidden="{Boolean}true"
+                                                granite:id="multifield"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield">
+                                                <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                    name="./paths"
+                                                    rootPath="/content/home"/>
+                                            </multifield>
+                                            <pathfield
+                                                granite:hidden="{Boolean}true"
+                                                granite:id="pathfield"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                forceSelection="{Boolean}true"
+                                                name="./path"
+                                                rootPath="/content/home"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </second>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
