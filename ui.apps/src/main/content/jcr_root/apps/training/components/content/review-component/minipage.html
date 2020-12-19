@@ -1,0 +1,9 @@
+<template data-sly-template.minipage="${@ description}">
+    <div class="review-component__minipage">
+        <a href="${description.referenceToPage}">
+            <img class="review-component__image" src="${description.pathToImage}">
+        </a>
+        <h2>${description.title}</h2>
+        <sly data-sly-text="${description.text @context='html'}"></sly>
+    </div>
+</template>

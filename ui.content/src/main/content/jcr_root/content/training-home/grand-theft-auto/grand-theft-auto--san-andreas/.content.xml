@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-12-15T23:54:04.929+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Grand Theft Auto: San Andreas"
+        sling:resourceType="training/components/structure/content-page">
+        <image
+            jcr:lastModified="{Date}2020-12-15T23:53:44.999+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v2/image"
+            alt="Grand Theft Auto: San Andreas"
+            displayPopupTitle="true"
+            fileName="Grand Theft Auto: San Andreas.jpg"
+            isDecorative="false">
+            <file/>
+        </image>
+        <text
+            jcr:lastModified="{Date}2020-12-15T23:54:04.926+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/text/v2/text"
+            text="&lt;p>Grand Theft Auto: San Andreas is a 2004 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh title in the Grand Theft Auto series, and the follow-up to the 2002 game Grand Theft Auto: Vice City. It was released in October 2004 for PlayStation 2, and in June 2005 for Microsoft Windows and Xbox. The game is set within an open world environment that players can explore and interact with at their leisure. The story follows former gangster Carl &amp;quot;CJ&amp;quot; Johnson, who returns home after the death of his mother and is drawn back into his former gang and a life of crime while clashing with the authorities. Carl's journey takes him across the fictional U.S. state of San Andreas, which is heavily based on California and Nevada.&lt;/p>&#xd;&#xa;&lt;p>The game features references to many real-life elements of the world, such as its cities, regions, and landmarks, with its plot heavily based on several real-life events in Los Angeles in the early 1990s, including the rivalry between real-life street gangs, the crack epidemic of the 1980s and early 1990s, the LAPD Rampart scandal, and the 1992 Los Angeles riots. Unlike its predecessor, San Andreas brought with it new elements of gameplay that would be later incorporated in future titles, including RPG-style mechanics, customisation options with both clothing and vehicle appearances, a vast array of activities and mini-games, and the inclusion of gambling games.&lt;/p>&#xd;&#xa;"
+            textIsRich="true"/>
+    </jcr:content>
+</jcr:root>

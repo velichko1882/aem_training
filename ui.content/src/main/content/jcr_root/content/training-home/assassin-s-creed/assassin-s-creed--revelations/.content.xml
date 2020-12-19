@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-12-15T23:14:36.737+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Assassin's Creed: Revelations"
+        sling:resourceType="training/components/structure/content-page">
+        <image
+            jcr:lastModified="{Date}2020-12-15T23:14:11.663+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v2/image"
+            alt="Assassin's Creed: Revelations"
+            displayPopupTitle="true"
+            fileName="Assassin's Creed: Revelations.jpg"
+            isDecorative="false">
+            <file/>
+        </image>
+        <text
+            jcr:lastModified="{Date}2020-12-15T23:14:36.734+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/text/v2/text"
+            text="&lt;p>Assassin's Creed: Revelations is a 2011 action-adventure video game developed by Ubisoft Montreal and published by Ubisoft. It is the fourth major installment in the Assassin's Creed series, a direct sequel to 2010's Assassin's Creed: Brotherhood. The game was released on PlayStation 3, Xbox 360, and Microsoft Windows in November and December 2011.&lt;/p>&#xd;&#xa;&lt;p>The plot is set in a fictional history of real-world events and follows the centuries-old struggle between the Assassins, who fight for peace with free will, and the Templars, who desire peace through control. The framing story is set in the 21st century and features the series protagonist Desmond Miles who, with the aid of a machine known as the Animus, relives the memories of his ancestors to find a way to avert the 2012 apocalypse. Revelations features two other returning protagonists: Altaïr Ibn-La'Ahad in 12th and 13th century Masyaf, and Ezio Auditore da Firenze in 16th century Constantinople. The main story follows the Assassin Ezio's journey to unlock the secret of Altaïr's vault in Masyaf using disc-like artifacts containing Altaïr's memories.&lt;/p>&#xd;&#xa;"
+            textIsRich="true"/>
+    </jcr:content>
+</jcr:root>

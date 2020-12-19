@@ -1,9 +1,17 @@
-<div>
-	<sly data-sly-use.review="com.epam.aem.training.core.models.ReviewComponentModel"></sly>
-	<h2>${review.behavior}</h2>
-	<h2>${review.headline}</h2>
-	<h2>${review.numberOfElements}</h2>
-	<h2>${review.path}</h2>
-	<p data-sly-repeat="${review.paths}">${item}</p>
-    <h1>${pageProperties.jcr:title}</h1>
+<sly data-sly-use.review="com.epam.aem.training.core.models.ReviewComponentModel"
+		data-sly-use.minipage="minipage.html"></sly>
+
+<div class ="review-component__headline">
+	<h1 data-sly-test="${review.headline}">${review.headline} (${review.behavior})</h1>
+	<h1 data-sly-test="${review.headline == null}">${component.title}</h1>
 </div>
+
+<sly data-sly-repeat="${review.firstPortionPages}" 
+	 data-sly-call="${minipage.minipage @ description=item}">
+</sly>
+
+<form>
+<button type="button" id="button" autofocus>SHOW MORE</button>
+</form>
+
+

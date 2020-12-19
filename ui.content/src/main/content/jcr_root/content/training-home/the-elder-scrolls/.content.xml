@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-12-12T22:29:47.342+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="The Elder Scrolls"
+        sling:resourceType="training/components/structure/content-page">
+        <image
+            jcr:lastModified="{Date}2020-12-12T22:29:23.297+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v2/image"
+            alt="The Elder Scrolls"
+            displayPopupTitle="true"
+            fileName="The Elder Scrolls.jpg"
+            isDecorative="false">
+            <file/>
+        </image>
+        <text
+            jcr:lastModified="{Date}2020-12-12T22:29:47.339+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/text/v2/text"
+            text="&lt;p>The Elder Scrolls is a series of action role-playing video games primarily developed by Bethesda Game Studios and published by Bethesda Softworks. The series focuses on free-form gameplay in a detailed open world. Morrowind, Oblivion and Skyrim all won Game of the Year awards from multiple outlets. The series has sold more than 59 million copies worldwide.&lt;/p>&#xd;&#xa;&lt;p>Within the series' fictional universe, each game takes place on the continent of Tamriel. The setting combines pre-medieval real-world elements, such as a powerful Roman-like Empire, with high fantasy tropes, including limited technology, widespread magic use, and the existence of many mythological creatures. The continent is split into a number of provinces inhabited by humans and popular humanoid fantasy races such as elves, orcs and anthropomorphic animals. A common theme in the lore is that a chosen hero rises to defeat an incoming threat, usually a malevolent being or an antagonistic army.&lt;/p>&#xd;&#xa;&lt;p>Since debuting with Arena in 1994, the series has produced a total of five main games (of which the last three have each featured two or three expansions) as well as several spin-offs. In 2014, a massively multiplayer online role-playing game, The Elder Scrolls Online, was released by Bethesda's affiliated ZeniMax subsidiary ZeniMax Online Studios.&lt;/p>&#xd;&#xa;"
+            textIsRich="true"/>
+    </jcr:content>
+    <the-elder-scrolls-iii--morrowind/>
+    <the-elder-scrolls-iv--oblivion/>
+    <the-elder-scrolls-v--skyrim/>
+</jcr:root>

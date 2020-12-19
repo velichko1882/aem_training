@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-12-15T23:45:32.521+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Call of Duty: Warzone"
+        sling:resourceType="training/components/structure/content-page">
+        <image
+            jcr:lastModified="{Date}2020-12-15T23:45:12.828+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v2/image"
+            alt="Call of Duty: Warzone"
+            displayPopupTitle="true"
+            fileName="Call of Duty: Warzone.jpg"
+            isDecorative="false">
+            <file/>
+        </image>
+        <text
+            jcr:lastModified="{Date}2020-12-15T23:45:32.517+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/text/v2/text"
+            text="&lt;p>Call of Duty: Warzone is a free-to-play battle royale video game released on March 10, 2020, for PlayStation 4, Xbox One, and Microsoft Windows. The game is a part of the 2019 title Call of Duty: Modern Warfare and the 2020 title Call of Duty: Black Ops Cold War but does not require purchase of them. Warzone was developed by Infinity Ward and Raven Software and published by Activision. Warzone allows online multiplayer combat among 150 players, although some limited-time game modes support 200 players. Codenamed Operation: Rapid Sunder, it is set in the fictional city of Verdansk, which is loosely based on Donetsk city in Eastern Ukraine, on day 96 of the ongoing in-game conflict. The game features both cross-platform play and cross-platform progression between three games.&lt;/p>&#xd;&#xa;&lt;p>The game features two main modes: Plunder and Battle Royale. Warzone introduces a new in-game currency system called &amp;quot;Cash&amp;quot; which is used at &amp;quot;Buy Stations&amp;quot; in and around Verdansk. &amp;quot;Loadout&amp;quot; drops are an example of where Cash can be traded for limited access to players' custom classes (which were shared with Modern Warfare's standard modes prior to Season 6, v1.29, but now are unique to Warzone). Players may also use Cash to purchase items such as &amp;quot;killstreaks&amp;quot; and gas masks. At launch, Warzone only offered Trios, a squad capacity of three players. However, in free post launch content updates, Solos, Duos and Quads have all been added to the game.&lt;/p>&#xd;&#xa;&lt;p>The game received generally positive reviews from critics, with the maps receiving specific praise. In May 2020, Activision announced that Warzone had surpassed over 60 million downloads in the first two months.&lt;/p>&#xd;&#xa;"
+            textIsRich="true"/>
+    </jcr:content>
+</jcr:root>
