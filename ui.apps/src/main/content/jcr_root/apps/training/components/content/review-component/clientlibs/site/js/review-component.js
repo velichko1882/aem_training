@@ -39,3 +39,15 @@ $(function(){
         } 
     }
 });
+
+function sendPath(element) {
+    let path = element.href;
+    $.ajax("http://localhost:4502/content/training-home/jcr:content/content/review_component.path.html", {    
+        data : {
+            path : path
+        },
+        success(){
+            location.reload();
+        }
+    });
+}

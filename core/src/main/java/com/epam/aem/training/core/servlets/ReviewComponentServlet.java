@@ -25,7 +25,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component(service = {Servlet.class})
+@Component(service = Servlet.class)
 @SlingServletResourceTypes(
         resourceTypes = "training/components/content/review-component",
         methods = HttpConstants.METHOD_GET,

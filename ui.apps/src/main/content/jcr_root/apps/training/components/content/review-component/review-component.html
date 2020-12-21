@@ -6,12 +6,27 @@
 	<h1 data-sly-test="${review.headline == null}">${component.title}</h1>
 </div>
 
-<sly data-sly-repeat="${review.firstPortionPages}" 
-	 data-sly-call="${minipage.minipage @ description=item}">
-</sly>
+<div class="review-component__static" data-sly-test="${review.behavior == 'STATIC'}">
+	<sly data-sly-repeat="${review.firstPortionPages}"
+		 data-sly-call="${minipage.minipage @ description=item}">
+	</sly>
+	<form>
+		<button type="button" id="button" autofocus>SHOW MORE</button>
+	</form>
+</div>
 
-<form>
-<button type="button" id="button" autofocus>SHOW MORE</button>
-</form>
+<div class="review-component__dynamic" data-sly-test="${review.behavior == 'DYNAMIC'}">
+	<sly data-sly-call="${minipage.minipage @ description=review.rootPage}"></sly>
+	<div style="display: inline-block; vertical-align: top; margin: 10px;">
+    	<ul>
+			<li><a onclick="sendPath(this); return false;" href="http://localhost:4502/content/training-home.html">Home</a></li>
+		</ul>
+		<ul data-sly-list="${review.childPages}">
+			<li><a onclick="sendPath(this); return false;" href="${item.referenceToPage}">${item.title}</a></li>
+		</ul>
+	</div>
+</div>
+
+
 
 

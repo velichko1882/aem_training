@@ -3,6 +3,7 @@ package com.epam.aem.training.core.models;
 import com.epam.aem.training.core.bean.Constants;
 import com.epam.aem.training.core.bean.PageDescriptor;
 import com.epam.aem.training.core.services.ReviewComponentJCRService;
+import com.epam.aem.training.core.services.ReviewComponentSlingService;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
@@ -23,6 +24,9 @@ public class ReviewComponentModel {
 
     @OSGiService
     private ReviewComponentJCRService jcrService;
+
+    @OSGiService
+    private ReviewComponentSlingService slingService;
 
     @Inject
     private String behavior;
@@ -64,4 +68,16 @@ public class ReviewComponentModel {
         return jcrService.getPageDescriptorsForPortion(paths);
     }
 
+    public PageDescriptor getRootPage(){
+        return slingService.getPageDescriptor(path);
+    }
+
+    public List<PageDescriptor> getChildPages(){
+        List<PageDescriptor> pageDescriptors = new ArrayList<>();
+        List<String> paths = slingService.getChildPagesPaths(path);
+        for (String path : paths) {
+            pageDescriptors.add(slingService.getPageDescriptor(path));
+        }
+        return pageDescriptors;
+    }
 }

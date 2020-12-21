@@ -2,8 +2,15 @@
 
 .review-component {
     border: 5px solid black;
-    text-align: center;
     margin: 0, auto;
+}
+
+.review-component__static{
+    text-align: center;
+}
+
+.review-component__dynamic{
+    text-align: left;
 }
 
 .review-component__headline {
@@ -21,6 +28,7 @@
     width: 300px;
     margin: 10px;
     overflow: hidden;
+    text-align: center;
 }
 
 .review-component__image {
@@ -49,3 +57,33 @@
 	position:relative;
 	top:1px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    width: 300px;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    background-color: darkgray;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    background-color: darkslategray;
+    border-radius: 5px;
+  }
